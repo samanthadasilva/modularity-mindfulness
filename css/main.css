@@ -21,7 +21,237 @@ body {
   margin: 0;
 }
 
+figure
+article {
+  margin: 1rem;
+}
+
 img {
   display: block;
   width: 100%;
+}
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header
+.group {
+  text-align: center;
+}
+
+.head {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.gardens {
+  margin: 0;
+  font-size: 1.125rem;
+}
+
+a {
+  color: #3783a3;
+  font-size: 1.125rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin-bottom: 1rem;
+  margin-top: .25rem;
+}
+
+li {
+  display: inline-block;
+}
+
+.essence {
+  text-align: center;
+}
+
+.script {
+  font-size: 2rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.description {
+  text-align: center;
+  width: 89%;
+  font-size: 1rem;
+  margin: .5rem 1rem 2rem;
+}
+
+hr {
+  color: #e2e2e2;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-width: 30em;
+}
+
+.view-pic {
+  margin-top: 1.7rem;
+}
+
+.title {
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+.sub-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border: .2rem solid #3783a3;
+  border-radius: .3rem;
+  padding: .5em 1em .6em;
+  padding-right: 2.5rem;
+  font-size: 1rem;
+}
+
+.content {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  article
+  main {
+    display: grid;
+    grid-column: 1 / 4;
+  }
+
+  main {
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 1rem;
+    align-items: flex-start;
+  }
+
+  header
+  .group {
+    text-align: left;
+  }
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .group {
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  nav {
+    margin-top: 1rem;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 1.125rem;
+  }
+
+  nav li {
+    padding: 0 .5rem;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .ban-pic {
+    margin-bottom: 2rem;
+  }
+
+  .essence {
+    width: 83%;
+    margin-left: 3rem;
+  }
+
+  figure {
+    display: grid;
+  }
+
+  hr {
+    margin-bottom: 0;
+  }
+
+  .viewing {
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0;
+  }
+
+  .gravel {
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    margin: 0;
+  }
+
+  .symbolism {
+    display: grid;
+    grid-column: 3;
+    grid-template: 2;
+    margin: 0;
+  }
+
+  footer {
+    display: grid;
+    grid-column: -4 / -1;
+  }
+
+  .gravel-pic
+  .view-pic {
+    margin-top: 0;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .script {
+    width: 57%;
+    margin-left: 13rem;
+  }
+
+  .description {
+    width: 60%;
+    margin-left: 12rem;
+  }
+
+  .line {
+    margin-left: 12rem;
+  }
+
 }
